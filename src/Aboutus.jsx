@@ -2,7 +2,7 @@ import React from 'react'
 import aboutusimg from "./images/aboutme.png"   
 import line from "./images/Line.png"
 import toprightscrible from "./images/aboutusposit.png"
-import resume from "./images/Resume.pdf"
+import resume from "./images/Santhosh_D_Resume.pdf"
 
 
 export const Aboutus = () => {
