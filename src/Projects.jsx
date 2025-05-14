@@ -109,9 +109,9 @@ export const Projects = () => {
                                 <p data-aos="fade-right">HTML5, CSS3</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Multi-Page/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Multi-Page"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -126,9 +126,9 @@ export const Projects = () => {
                                 <p data-aos="fade-right">ReactJs, API</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://meatify-shopping.netlify.app/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Meatify-Shopping"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -143,9 +143,9 @@ export const Projects = () => {
                                 <p data-aos="fade-right">Bootstrap, CSS3, Javascript</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Law-Firm-Dashboard/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Law-Firm-Dashboard"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -160,9 +160,9 @@ export const Projects = () => {
                                 <p data-aos="fade-right">WordPress</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Bounty-Travel/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Bounty-Travel"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -177,9 +177,9 @@ export const Projects = () => {
                                 <p data-aos="fade-right">WordPress</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Buildex/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Buildex"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -251,9 +251,9 @@ export const Projects = () => {
                                 <p data-aos="fade-in">Firebase, HTML5, CSS3 & Javascript</p>
                             </div>
                            <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/To-Do-List/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/To-Do-List"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -268,9 +268,9 @@ export const Projects = () => {
                                 <p data-aos="fade-left">Node.js, Express.js & Nodemon</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://qr-code-3xtn.onrender.com/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/qr-code"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -285,9 +285,9 @@ export const Projects = () => {
                                 <p data-aos="fade-left">Nodejs, Express, MongoDB</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://crikit-with-data.onrender.com/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Crikit-With-Data"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -302,9 +302,9 @@ export const Projects = () => {
                                 <p data-aos="fade-left">Nodejs, Express, MongoDB</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://contact-us-without-data.onrender.com/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Contact-Us-Without-Data-"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
@@ -319,9 +319,9 @@ export const Projects = () => {
                                 <p data-aos="fade-left">WordPress</p>
                             </div>
                             <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://santhosh-webd.github.io/Single-Page-Project/"><button className="liveproject">Live Project</button></a>
+                                <a data-aos="flip-left" href="https://meatify-login-signup.netlify.app/"><button className="liveproject">Live Project</button></a>
                             <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Single-Page-Project"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/login-signup"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
                             </div>
                             </div>
                         </div>
