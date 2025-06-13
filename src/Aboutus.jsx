@@ -29,7 +29,7 @@ export const Aboutus = () => {
                 <a href="#contact">
                 <button className="hiremebutton" data-aos="fade-up">HIRE ME</button>
                 </a>
-                <a href={resume}>
+                <a href={resume} target="_blank">
                 <button className="resumebutton" data-aos="fade-up">RESUME</button>
                 </a>
             </div>
