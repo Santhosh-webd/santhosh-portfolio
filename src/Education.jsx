@@ -25,7 +25,7 @@ export const Education = () => {
                                     <TimelineConnector sx={{ width: '2.3px', backgroundColor: "#fff" }} />
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ marginLeft: '20px' }} >
-                                    <div className="child1" data-aos="fade-left">
+                                    <div className="child1" data-aos="fade-up">
                                         <p className='yearofstudy'>2024 - 2025</p>
                                         <h4 className="courseedu">Full Stack Development (MERN Stack)</h4>
                                         <p className="wherestudy">Web D School - Chennai</p>
@@ -38,7 +38,7 @@ export const Education = () => {
                                     <TimelineConnector sx={{ width: '2.3px', backgroundColor: "#fff" }} />
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ marginLeft: '20px' }} >
-                                    <div className="child2" data-aos="fade-left">
+                                    <div className="child2" data-aos="fade-up">
                                         <p className='yearofstudy'>2021 - 2024</p>
                                         <h4 className="courseedu">Bachelor of Commerce (B.Com)</h4>
                                         <p className="wherestudy">Nadar Mahagana Sangam S. Vellaichamy Nadar College - Madurai</p>
@@ -51,7 +51,7 @@ export const Education = () => {
                                     <TimelineConnector sx={{ width: '2.3px', backgroundColor: "#fff" }} />
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ marginLeft: '20px' }} >
-                                    <div className="child3" data-aos="fade-left">
+                                    <div className="child3" data-aos="fade-up">
                                         <p className='yearofstudy'>2020 - 2021</p>
                                         <h4 className="courseedu">Higher Secondary Certificate</h4>
                                         <p className="wherestudy">Keren Matriculation Higher Secondary School - Madurai</p>
