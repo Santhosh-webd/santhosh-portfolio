@@ -29,10 +29,10 @@ export const Home = () => {
                 <h3 data-aos="fade-down">HI, THERE</h3>
                 <h1 data-aos="zoom-in">I'M SANTHOSH D</h1>
                 <h2 data-aos="fade-left">FULL STACK DEVELOPER</h2>
-                <p data-aos="fade-left">Building better web experiences through code and creativity.</p>
-                <p data-aos="fade-left">Focused on solving problems with style and substance.</p>
-                <p data-aos="fade-left">Let’s make your next idea unforgettable.</p>
-                <a href={resume} download="Santhosh_D_Resume.pdf">
+                <p data-aos="fade-left">I build modern web experiences through clean code and creative design.</p>
+                <p data-aos="fade-left">I focus on solving problems with clarity, style, and purpose.</p>
+                <p data-aos="fade-left">Let’s bring your next idea to life.</p>
+                <a href={resume} download="Santhosh_D_Resume.pdf" >
                   <button className='downloadbutton' data-aos="fade-up"
                     data-aos-anchor-placement="top-bottom">DOWNLOAD CV</button>
                 </a>
