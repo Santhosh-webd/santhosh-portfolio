@@ -47,11 +47,11 @@ export const Contact = () => {
                         <div className="formmaindiv">
                             <form id='contactform' onSubmit={sendEmail}>
                                 <label htmlFor="" data-aos="fade-up">Email Address</label>
-                                <input type="email" name="user_email" data-aos="fade-left" placeholder='Enter your email' required />
+                                <input type="email" name="user_email" data-aos="fade-up" placeholder='Enter your email' required />
                                 <label htmlFor="" data-aos="fade-up">Your Name</label>
-                                <input type="text" data-aos="fade-left" name="user_name" placeholder='Enter your name' required />
+                                <input type="text" data-aos="fade-up" name="user_name" placeholder='Enter your name' required />
                                 <label htmlFor="" data-aos="fade-up">Your Message</label>
-                                <textarea data-aos="fade-left" id="" name="message" cols="" rows="4" placeholder='Enter your Message' required></textarea>
+                                <textarea data-aos="fade-up" id="" name="message" cols="" rows="4" placeholder='Enter your Message' required></textarea>
                                 <button type='submit' data-aos="fade-up" className='contactbutton'>SUBMIT</button>
                             </form>
                         </div>
