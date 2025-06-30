@@ -27,20 +27,25 @@ export const Projects = () => {
             const portfolioDetails = carouselBox.parentElement.querySelectorAll(".portfolio-detail");
 
             const updateCarousel = () => {
-                if (imgSlide) {
-                    imgSlide.style.transform = `translateX(calc(${localIndex * -100}% - ${localIndex * 2}rem))`;
-                }
-                if (portfolioDetails.length > 0) {
-                    portfolioDetails.forEach(detail => detail.classList.remove("active"));
-                    if (portfolioDetails[localIndex]) {
-                        portfolioDetails[localIndex].classList.add("active");
-                    }
-                }
+  if (imgSlide) {
+    // Calculate the exact translation without gaps
+    imgSlide.style.transform = `translateX(${localIndex * -100}%)`;
+    
+    // Force a reflow to prevent animation glitches
+    void imgSlide.offsetWidth;
+  }
+  
+  if (portfolioDetails.length > 0) {
+    portfolioDetails.forEach(detail => detail.classList.remove("active"));
+    if (portfolioDetails[localIndex]) {
+      portfolioDetails[localIndex].classList.add("active");
+    }
+  }
 
-                // Toggle button states
-                arrowLeft.classList.toggle("disabled", localIndex === 0);
-                arrowRight.classList.toggle("disabled", localIndex === portfolioDetails.length - 1);
-            };
+  // Toggle button states
+  arrowLeft.classList.toggle("disabled", localIndex === 0);
+  arrowRight.classList.toggle("disabled", localIndex === portfolioDetails.length - 1);
+};
 
             const handleRightClick = () => {
                 if (localIndex < portfolioDetails.length - 1) {
@@ -316,7 +321,7 @@ export const Projects = () => {
                             <h3 data-aos="fade-left">Log in / Sign Up</h3>
                             <p data-aos="fade-left">A modern authentication interface built with React and Firebase. It features secure user login and signup functionality, designed for a meat delivery service app with smooth UI transitions and Firebase-backed user management.</p>
                             <div className="tech">
-                                <p data-aos="fade-left">WordPress</p>
+                                <p data-aos="fade-left">React, Firebase</p>
                             </div>
                             <div className="liveandgitdiv">
                                 <a data-aos="flip-left" href="https://meatify-login-signup.netlify.app/" target="_blank"><button className="liveproject">Live Project</button></a>
