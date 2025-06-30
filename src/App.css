@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 * {
   margin: 0;
@@ -17,8 +19,9 @@ html {
 }
 
 .mainheader {
-  background: #3B141C;
-  background: linear-gradient(90deg,rgba(59, 20, 28, 1) 18%, rgba(243, 150, 28, 1) 100%);
+  background: #2A0F17;
+  /* background: #3B141C; */
+  background: linear-gradient(90deg,rgba(59, 20, 28, 1) 25%, rgba(243, 150, 28, 1) 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +53,7 @@ html {
   text-decoration: none;
   color: #FAF4F5;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   padding: 5px 20px;
   border-radius: 35px;
   transition: 0.3s;
@@ -59,7 +62,7 @@ html {
 
 .navlinks li a:hover {
   background-color: #FAF4F5;
-  color: #3B141C;
+  color: #2A0F17;
 }
 
 .mobile-menu-icon {
@@ -87,7 +90,7 @@ html {
 @media (max-width: 768px) {
   .navlinks {
     flex-direction: column;
-    background-color: #F3961C;
+    background-color: #FAF4F5;
     position: fixed;
     top: 0;
     left: -100%;
@@ -117,7 +120,7 @@ html {
     top: 20px;
     right: 20px;
     cursor: pointer;
-    color: #3B141C;
+    color: #2A0F17;
   }
 }
 
@@ -126,7 +129,7 @@ html {
 
 
 .mainhomediv {
-  background-color: #3B141C;
+  background-color: #2A0F17;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -156,39 +159,46 @@ html {
 .bothmaindiv {
   display: flex;
   /* justify-content: space-around; */
-  gap: 120px;
+  gap: 80px;
   align-items: center;
   padding-left: 50px;
 }
 
 .mainheadingherosec h3 {
-  font-family: "Sansita One";
-  font-size: 24px;
+  /* font-family: "Sansita One"; */
+  font-size: 25px;
   letter-spacing: 2px;
-  font-weight: 400;
-  color: #fff;
-  margin-bottom: 10px;
+  /* font-weight: 400; */
+  color: #cccccc;
+  margin-bottom: 8px;
+  font-family: "Playfair Display", serif;
+  /* font-family: "Roboto Slab", serif; */
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .mainheadingherosec h1 {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
+  /* font-family: "DM Sans", sans-serif; */
+font-family: "Poppins", sans-serif;
+  /* font-optical-sizing: auto; */
   font-weight: 800;
   letter-spacing: 2px;
   font-style: normal;
   color: #fff;
-  font-size: 45px;
+  font-size: 48px;
+  line-height: 1.2;
 }
 
 .mainheadingherosec h2 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   color: #F3961C;
-  font-size: 32px;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
+  font-size: 36px;
+  /* letter-spacing: 1px; */
+  margin-bottom: 10px;
 }
 
 .mainheadingherosec p {
@@ -197,26 +207,32 @@ html {
   padding-bottom: 2px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  max-width: 600px;
 }
 
 .downloadbutton {
   background-color: #F3961C;
-  color: #1E1E1E;
-  padding: 15px 30px;
+  color: #2B2B2B;
+  padding: 12px 28px;
   font-weight: 600;
   font-size: 17px;
   border-radius: 25px;
   margin-top: 25px;
   outline: none;
+  letter-spacing: normal;
   border: none;
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   cursor: pointer;
+   transition: all 0.3s ease;
 }
 .downloadbutton:hover{
   background-color: #FAF4F5;
-  color: #3B141C;
+  color: #2A0F17;
+  transform: translateY(-2px);
 }
 .rightmyimage .img-box {
   position: relative;
@@ -236,7 +252,9 @@ html {
   content: "";
   position: absolute;
   width: 525px;
-  height: 525px;
+  height: 500px;
+  /* background: #F3961C; */
+
   background: conic-gradient(transparent, transparent, transparent, #fff);
   transform: rotate(0deg);
   animation: rotate-border 10s linear infinite;
@@ -256,8 +274,9 @@ html {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #F3961C;
-  border: .1px solid #3B141C;
+  /* background: #F3961C; */
+  background: #F4F0EB;
+  border: .1px solid #2A0F17;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -271,6 +290,7 @@ html {
   width: 100%;
   object-fit: cover;
   top: 30px;
+  /* mix-blend-mode: lighten; */
 }
 
 
@@ -357,7 +377,7 @@ html {
   }
   .leftsideimage {
     width: 35px;
-    bottom: 200px;
+    top: 230px;
   }
   .linkitems {
     width: 30px;
@@ -437,7 +457,7 @@ html {
 .hiremebutton {
   font-size: 17px;
   background-color: #F3961C;
-  color: #3B141C;
+  color: #2A0F17;
   padding: 12px 35px;
   border-radius: 6px;
   font-weight: 600;
@@ -452,7 +472,7 @@ html {
 }
 .resumebutton {
   font-size: 17px;
-  background-color: #3B141C;
+  background-color: #2A0F17;
   color: #FAF4F5;
   padding: 12px 35px;
   border-radius: 6px;
@@ -535,7 +555,7 @@ html {
 /* education section starts here  */
 
 .maineducationdiv {
-  background-color: #3B141C;
+  background-color: #2A0F17;
   padding: 40px 0px;
 }
 .educationheaddiv {
@@ -641,6 +661,14 @@ html {
     font-size: 15px;
   }
 }
+@media (max-width: 320px){
+.subeducationdivides .child1,
+.subeducationdivides .child2,
+.subeducationdivides .child3 {
+  width: 150px;
+}
+}
+
 
 /* education section ends here  */
 
@@ -689,6 +717,7 @@ html {
   height: 50px;
 }
 
+
 @media (max-width: 1024px) {
   .skillsmainchildsec {
     grid-template-columns: repeat(4, 1fr);
@@ -735,7 +764,7 @@ html {
 /* projects section starts here  */
 
 .mainprojectsec {
-  background-color: #3B141C;
+  background-color: #2A0F17;
   padding: 50px 0px;
 }
 .projsecheader{
@@ -843,7 +872,7 @@ html {
   text-decoration: none;
 }
 .portfolio-box .live-github a:hover {
-  color: #3B141C;
+  color: #2A0F17;
   background-color: #fff;
 }
 .liveandgitdiv{
@@ -884,7 +913,7 @@ html {
   opacity: 0;
   transition: .2s;
   background-color: #FAF4F5;
-  color: #3B141C;
+  color: #2A0F17;
 }
 .portfolio-box .live-github a:hover span {
   top: -75%;
@@ -915,6 +944,11 @@ html {
   object-fit: cover;
   border-radius: 1rem;
 }
+.portfolio-box .portfolio-carousel {
+  padding-left: 0; /* Remove padding from carousel container */
+}
+
+
 .portfolio-box .navigation {
   text-align: right;
   margin-top: 2rem;
@@ -927,7 +961,7 @@ html {
   border-radius: .5rem;
   font-size: 3.2rem;
   font-weight: 600;
-  background-color: #3B141C;
+  background-color: #2A0F17;
   color: #fff;
   cursor: pointer;
   transition: .5s;
@@ -952,15 +986,18 @@ html {
   overflow: hidden;
   width: 100%;
   position: relative;
+  border-radius: 1rem;
 }
 .img-slide {
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 100%;
+  height: 360px;
 }
 .img-item {
   min-width: 100%;
   flex-shrink: 0;
+  height: 100%;
 }
 .portfolio-box {
   position: relative;
@@ -979,6 +1016,9 @@ html {
 }
 .final-container {
   margin-bottom: 1px;
+}
+.portfolio-carousel .img-slide {
+  gap: 0; /* Remove gap between slides */
 }
 
 /* For tablets and smaller screens */
@@ -1013,7 +1053,7 @@ html {
     font-size: 2.5rem;  
   }
   .portfolio-carousel .img-slide {
-    gap: 1rem;
+    gap: 0rem;
   }
   .backend-carousel-box{
     order: 2;
@@ -1051,6 +1091,9 @@ html {
   .portfolio-box {
     min-height: 450px;  
   }
+  .portfolio-carousel .img-slide {
+    gap: 0rem;
+  }
 }
 
 /* project section ends here  */
@@ -1074,7 +1117,7 @@ html {
   color: #000;
 }
 .headercontactsec h2 span{
-  color: #3B141C;
+  color: #2A0F17;
 }
 .headercontactsec img{
   width: 190px;
@@ -1088,7 +1131,7 @@ html {
   letter-spacing: 1px;
 }
 .headercontactsec p a{
-  color: #3B141C;
+  color: #2A0F17;
 }
 .contactdetailsmainsec{
   display: flex;
@@ -1165,7 +1208,7 @@ html {
   font-weight: 500;
   font-style: normal;
   width: 100%;
-  background-color: #3B141C;
+  background-color: #2A0F17;
   color: #fff;
   border: none;
   outline: none;
@@ -1177,7 +1220,7 @@ html {
 }
 .contactbutton:hover{
   background-color: #F3961C;
-  color: #3B141C;
+  color: #2A0F17;
 }
 
 @media (max-width: 768px) {
@@ -1208,7 +1251,7 @@ html {
 /* footer starts here  */
 
 .mainfooterdiv {
-  background-color: #3B141C;
+  background-color: #2A0F17;
   padding: 20px 40px;
   color: #fff;
   display: flex;
