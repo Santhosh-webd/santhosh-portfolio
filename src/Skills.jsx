@@ -14,9 +14,12 @@ export const Skills = () => {
             </div>
             <div className="skillsmainchildsec" >
               {skilldetails.map((alldata,index)=>
-              <div key={index} className='skillsubchild' data-aos="flip-right" data-aos-duration="2000">
-                <img src={alldata.skillimage} alt=""  />
+              <div key={index} className='skillsubchild' data-aos="zoom-in" >
+                <div className="childskills">
+                  <img src={alldata.skillimage} alt=""  />
                 <h4>{alldata.skillname}</h4>
+                </div>
+ 
               </div>
               )}
 
