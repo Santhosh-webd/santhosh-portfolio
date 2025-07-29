@@ -229,6 +229,9 @@ export const Projects = () => {
                                 <div className="img-item">
                                     <img src={loginproject} alt="" data-aos="flip-right"/>
                                 </div>
+                                 <div className="img-item">
+                                    <img src={withoutdata} alt="" data-aos="flip-right"/>
+                                </div>
                                 <div className="img-item">
                                     <img src={withdata} alt="" data-aos="flip-right"/>
                                 </div>
@@ -239,9 +242,7 @@ export const Projects = () => {
                                     <img src={qrcode} alt="" data-aos="flip-right"/>
                                 </div>
                                 
-                                <div className="img-item">
-                                    <img src={withoutdata} alt="" data-aos="flip-right"/>
-                                </div>
+                               
                                 
                             </div>
                         </div>
@@ -284,11 +285,26 @@ export const Projects = () => {
                             </div>
                             </div>
                         </div>
-
+                        <div className="portfolio-detail">
+                            <h2 data-aos="fade-left">BACKEND PROJECTS</h2>
+                            <img src={line} data-aos="fade-up"  alt="line" className='line' />
+                            <p data-aos="flip-right"  className="numb">03</p>
+                            <h3 data-aos="fade-left">Cricket Tournament Registration</h3>
+                            <p data-aos="fade-left">A full-stack web application for managing cricket team registrations, built using Node.js, Express, MongoDB, and EJS. It features team registration forms, data storage, and dynamic display of registered teams.</p>
+                            <div className="tech">
+                                <p data-aos="fade-left">Nodejs, Express, MongoDB</p>
+                            </div>
+                            <div className="liveandgitdiv">
+                                <a data-aos="flip-left" href="https://crikit-with-data.onrender.com/" target="_blank"><button className="liveproject">Live Project</button></a>
+                            <div className="live-github">
+                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Crikit-With-Data" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
+                            </div>
+                            </div>
+                        </div>
                         <div className="portfolio-detail active ">
                             <h2 data-aos="fade-in">BACKEND PROJECTS</h2>
                             <img src={line} data-aos="fade-up"  alt="line" className='line' />
-                            <p data-aos="flip-right" className="numb">03</p>
+                            <p data-aos="flip-right" className="numb">04</p>
                             <h3 data-aos="fade-in">To-Do-List</h3>
                             <p data-aos="fade-in">A real-time task management web application developed using Firebase for backend services along with HTML, CSS, and JavaScript. It showcases Firebase’s capabilities for storing, updating, and syncing tasks instantly across sessions.</p>
                             <div className="tech">
@@ -305,7 +321,7 @@ export const Projects = () => {
                         <div className="portfolio-detail">
                             <h2 data-aos="fade-left">BACKEND PROJECTS</h2>
                             <img src={line} data-aos="fade-up"  alt="line" className='line' />
-                            <p data-aos="flip-right"  className="numb">04</p>
+                            <p data-aos="flip-right"  className="numb">05</p>
                             <h3 data-aos="fade-left">QR Code Generator</h3>
                             <p data-aos="fade-left">A Node.js and Express-based web application that generates QR codes dynamically from user input. It demonstrates backend processing and integrates QR code generation libraries for instant download or display.</p>
                             <div className="tech">
@@ -319,22 +335,7 @@ export const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="portfolio-detail">
-                            <h2 data-aos="fade-left">BACKEND PROJECTS</h2>
-                            <img src={line} data-aos="fade-up"  alt="line" className='line' />
-                            <p data-aos="flip-right"  className="numb">05</p>
-                            <h3 data-aos="fade-left">Cricket Tournament Registration</h3>
-                            <p data-aos="fade-left">A full-stack web application for managing cricket team registrations, built using Node.js, Express, MongoDB, and EJS. It features team registration forms, data storage, and dynamic display of registered teams.</p>
-                            <div className="tech">
-                                <p data-aos="fade-left">Nodejs, Express, MongoDB</p>
-                            </div>
-                            <div className="liveandgitdiv">
-                                <a data-aos="flip-left" href="https://crikit-with-data.onrender.com/" target="_blank"><button className="liveproject">Live Project</button></a>
-                            <div className="live-github">
-                                <a data-aos="flip-left" href="https://github.com/Santhosh-webd/Crikit-With-Data" target="_blank"><i class='bx bxl-github' ></i><span>Github Repostiory</span></a>
-                            </div>
-                            </div>
-                        </div>
+                        
 
                         
                         
